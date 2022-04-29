@@ -1,0 +1,8 @@
+> library(readxl)
+> data <- read_excel("C:/Users/Dell/Desktop/data.xlsx")
+> View(data)
+> jeevitha<- read_excel("C:/Users/Dell/Desktop/data.xlsx")
+> mean(jeevitha$max_price)
+[1] 12611.11
+> sd(jeevitha$modal_price)
+[1] 3524.714
